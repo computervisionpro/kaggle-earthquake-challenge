@@ -3,7 +3,7 @@ The code was a part of a kaggle challenge, which had a dataset having around 20 
 
 
 In this challenge I employed the use of five different models stacked together: Random Forest, XGBoost, LightGB, SVR and Deep Neural Network. 
-With this combination I was able to reach error score of **0.530**
+With this combination I was able to reach final error score of **0.530** on full Test dataset.
 
 I tried various permutations and combinations elimainating each model one by one, or by removing one model and trying with the rest (ablation test). My findings were that the combination of all models give the best score. Random Forest and DNN models were most inflential
 
@@ -12,8 +12,8 @@ I tried various permutations and combinations elimainating each model one by one
 
 
 The following are Ridge meta model's coefficient of each model:
-- rf: 0.2769
-- xgb: 0.0561
-- dnn: 0.2756
-- lightgb: 0.0726
-- svr: 0.0415
+- rf: 0.2593
+- xgb: 0.0583
+- dnn: 0.3082
+- lightgb: 0.0662
+- svr: 0.0384
