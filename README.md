@@ -21,6 +21,8 @@ The following are Ridge meta model's coefficient of each model:
 
 Benefits of Ridge meta-model are:
 
-✅ handles correlated base models well
-✅ reduces overfitting
+✅ handles correlated base models well (Ridge pealizes large weights)
+
+✅ reduces overfitting (handles small features well)
+
 ✅ fast & stable
