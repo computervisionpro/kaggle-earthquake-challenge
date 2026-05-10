@@ -19,9 +19,10 @@ The following are Ridge meta model's coefficient of each model:
 - svr: 0.0384
 
 
-Benefits of Ridge meta-model are:
 
-✅ handles correlated base models well (Ridge pealizes large weights)
+Benefits of using Ridge as meta-model are:
+
+✅ handles correlated base models well (Ridge penalizes large weights)
 
 ✅ reduces overfitting (handles small features well)
 
