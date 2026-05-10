@@ -17,3 +17,10 @@ The following are Ridge meta model's coefficient of each model:
 - dnn: 0.3082
 - lightgb: 0.0662
 - svr: 0.0384
+
+
+Benefits of Ridge meta-model are:
+
+✅ handles correlated base models well
+✅ reduces overfitting
+✅ fast & stable
