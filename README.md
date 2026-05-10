@@ -5,7 +5,7 @@ The code was a part of a kaggle challenge, which had a dataset having around 20 
 In this challenge I employed the use of five different models stacked together: Random Forest, XGBoost, LightGB, SVR and Deep Neural Network. 
 With this combination I was able to reach error score of **0.530**
 
-I tried various permutation 
+I tried various permutations and combinations elimainating each model one by one, or by removing one model and trying with the rest. My findings were that the combination of all models give the best score.
 
 
 <img src="https://github.com/computervisionpro/kaggle-earthquake-challenge/blob/main/md-img.png" alt="Gemma4" width="900" height="450">
